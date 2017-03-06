@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#time {
+    width: 650px; 
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    font: bold 28px arial;
+    border-radius: 7px;
+    box-shadow: 0 0 8 #696969;
+    text-align: center;
+    margin-top: 80px;
+    padding: 25px;   
+}
+#time span {
+    color: red;
+    font-weight: bolder;
+    margin: 0 10px;
+}
