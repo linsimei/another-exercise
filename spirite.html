@@ -1,0 +1,89 @@
+<!DOCTYPE html >
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>雪碧图制作登陆按钮</title>
+    <style>
+        div,
+        form,
+        input,
+        button {
+            padding: 0;
+            margin: 0;
+        }
+
+        .clearfix :after {
+            content: "";
+            clear: both;
+            display: block;
+        }
+
+        body {
+            font-size: 12px;
+        }
+
+        #container {
+            width: 240px;
+            padding: 20px;
+            margin: 0 auto;
+            border: 1px solid #ddd;
+            background: #ebf4fa;
+            text-align: center;
+        }
+
+        .user,
+        .password {
+            display: block;
+            width: 192px;
+            height: 39px;
+            margin: 10px auto;
+            padding-left: 15px;
+        }
+
+        .check {
+            margin-left: -35px;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+
+        .forget {
+            text-decoration: none;
+            float: right;
+            margin-right: 15px;
+        }
+
+        button {
+            width: 192px;
+            height: 39px;
+            line-height: 39px;
+            margin: 15px 0;
+            text-align: center;
+            background: url(http://static.mukewang.com/img/539a972b00013e9102280177.jpg);
+        }
+        hr{
+            display: block;
+            width: 200px;
+            background: #ebf4fa;
+        }
+        .register {
+            background-position: 0 -39px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <form action="">
+            <input type="text" class="user" placeholder="邮箱/手机号/用户名" />
+            <input type="text" class="password" placeholder="请输入密码" />
+            <div><input class="check" type="checkbox" /><span>下次自动登陆</span> <a class="forget" href="#">忘记密码？</a></div>
+            <button class="login"></button>
+            <hr>
+            <button class="register"></button>
+        </form>
+    </div>
+
+</body>
+
+</html>
